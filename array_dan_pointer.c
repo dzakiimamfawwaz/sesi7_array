@@ -10,13 +10,17 @@ int main()
     const char *nama2;
     const char *nama3[MAX_LENGTH]; // Menggunakan array dari pointer karakter
 
+    // Mengisikan data literal string "Brisia Jodie" ke nama1
     strcpy(nama1, "Brisia Jodie");
 
+    // Mengisikan data literal string "Brisia Jodie" ke nama2
     nama2 = "Brisia Jodie";
 
+    // Mengisikan data literal string "Brisia Jodie" ke nama3
     int i;
-    for (i = 0; i < MAX_LENGTH; i++) {
-        nama3[i] = "Brisia Jodie"; // Mengatur pointer karakter ke string literal
+    for (i = 0; i < MAX_LENGTH; i++)
+    {
+        nama3[i] = "Brisia Jodie"; // dari index 0 - 19 value = Brisia Jodie
     }
 
     // Output
@@ -27,3 +31,4 @@ int main()
 
     return 0;
 }
+
