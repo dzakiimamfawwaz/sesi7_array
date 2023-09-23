@@ -1,3 +1,8 @@
+/*
+Dzaki Imam Fawwaz - 2702367486
+date : 23 Sep 2023
+*/
+
 #include <stdio.h>
 #include <string.h>
 
